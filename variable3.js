@@ -1,9 +1,9 @@
 // 상수가 필요한 이유
 
-const currentYear = 2022; // 현재 연도
+// 올해 나이 계산 하기
 
-let birthYear = parseInt(prompt("태어난 해를 입력하세요")); //  태어난 연도
+const currentYear = 2023
 
-let age = currentYear - birthYear + 1; // 나이
+let birthYear = parseInt(prompt("몇년생인지 입력하시오"))
 
-console.log(age); // 콘솔에 출력
+console.log(currentYear - birthYear + 1)
